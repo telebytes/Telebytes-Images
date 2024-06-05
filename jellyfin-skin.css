@@ -2070,7 +2070,7 @@ fieldset {
 }
 
 /* replaces Jellyfin logo */
-.adminDrawerLogo img { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } imgLogoIcon { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } .pageTitleWithLogo { background-image: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } /* imgur link https://i.imgur.com/wHaGTm4.png */
+.adminDrawerLogo img { content: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Images@latest/netflix-logo-white.png) !important; } imgLogoIcon { content: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Images@latest/netflix-logo-white.png) !important; } .pageTitleWithLogo { background-image: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Images@latest/netflix-logo-white.png) !important; } /* imgur link https://i.imgur.com/wHaGTm4.png */
 
 
 /* Support for Jellyscrub plugin */
