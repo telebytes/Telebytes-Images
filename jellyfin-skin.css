@@ -31,6 +31,14 @@
   transform:scale(1.1);
 }
 
+.adminDrawerLogo img,
+imgLogoIcon {
+  content: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Images@latest/netflix-logo-white.png) !important;
+}
+.pageTitleWithLogo {
+  background-image: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Images@latest/netflix-logo-white.png) !important;
+}
+
 /* JF Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {
@@ -1455,6 +1463,10 @@ progress {
 #loginPage {
   background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-default.png) !important;  /* previously https://i.imgur.com/NzrSCuv.png   original   https://i.imgur.com/T4zHTDI.jpeg */
   background-size: cover !important;
+}
+#loginPage h1::after {
+  content: "🤔 Moment of Truth 🤔";
+  font-size: 30px;
 }
 
 /* margin to Jellyfin logo */
