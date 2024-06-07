@@ -23,17 +23,20 @@
 /* Chnage home screen icons to white */
 .headerTabs .emby-tab-button:not(.emby-tab-button-active) .emby-button-foreground{color:#fff}
 
+/* Remove title if logo present (movies) */
+#itemDetailPage .itemName.infoText.parentNameLast>bdi:nth-child(1){display:none}
+.hide+.detailPageWrapperContainer .itemName>bdi:nth-child(1){display:block!important}
+
+/* Remove title if logo present (shows) */
+#itemDetailPage .parentName>bdi:nth-child(1){display:none}
+.hide+.parentName>bdi:nth-child(1){display:block!important}
+
 /* Unknown Changes */
 .headerRight,.headerTabs{border-width:0!important;background-color:rgba(var(--white-off),.1)!important}
 
 .headerTabs .material-icons,.headerRight .material-icons{color:#fff!important}
+
 .headerTabs .material-icons:hover, .headerRight .material-icons:hover{color:rgba(var(--accent-off)) !important}
-#itemDetailPage .itemName.infoText.parentNameLast>bdi:nth-child(1){display:none}
-.hide+.detailPageWrapperContainer .itemName>bdi:nth-child(1){display:block!important}
-
-#itemDetailPage .parentName>bdi:nth-child(1){display:none}
-
-.hide+.parentName>bdi:nth-child(1){display:block!important}
 
 .paper-icon-button-light>.material-icons{font-size:1.2em!important}
 
