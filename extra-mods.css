@@ -8,7 +8,7 @@
 }
 
 /* Changing Telebytes Logo */
-.pageTitleWithDefaultLogo {    background-image: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Mod@latest/netflix-logo-white.png) !important;}
+.pageTitleWithDefaultLogo {    background-image: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Mod@latest/purple-logo.png) !important;}
 
 /* Changing Home Screen Background */
 .withSectionTabs .backgroundContainer{background: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Mod@latest/gradient-bg.jpg) center no-repeat fixed!important;background-size: cover !important;}
