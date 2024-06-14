@@ -14,11 +14,11 @@
 .withSectionTabs .backgroundContainer{background: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Mod@latest/gradient-bg.jpg) center no-repeat fixed!important;background-size: cover !important;}
 
 /* Remove My Media Heading */
-/* #homeTab > div > div.section0 > div > h2 {
+#homeTab > div > div.section0 > div > h2 {
     visibility: hidden;
     height: 0;
     overflow: hidden;
-} */
+}
 
 /* Chnage home screen icons to white */
 .headerTabs .emby-tab-button:not(.emby-tab-button-active) .emby-button-foreground{color:#fff}
