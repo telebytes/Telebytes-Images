@@ -13,12 +13,25 @@
 /* Changing Home Screen Background */
 .withSectionTabs .backgroundContainer{background: url(https://cdn.jsdelivr.net/gh/telebytes/Telebytes-Mod@latest/gradient-bg.jpg) center no-repeat fixed!important;background-size: cover !important;}
 
-/* Remove My Media Heading */
+/* Remove My Media Heading (small) */
 #homeTab > div > div.section0 > div > h2 {
     visibility: hidden;
     height: 0;
     overflow: hidden;
 }
+
+/* Remove My Media Heading (Large) */
+#homeTab > div > div.verticalSection.section0.emby-scroller-container > h2 {
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Fix space issue over search */
+div[data-role="page"].page#searchPage {
+    margin-top: 0 !important;
+}
+
 
 /* Chnage home screen icons to white */
 .headerTabs .emby-tab-button:not(.emby-tab-button-active) .emby-button-foreground{color:#fff}
