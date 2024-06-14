@@ -21,11 +21,11 @@
 }
 
 /* Remove My Media Heading (Large) */
-#homeTab > div > div.verticalSection.section0.emby-scroller-container > h2 {
+/* #homeTab > div > div.verticalSection.section0.emby-scroller-container > h2 {
     visibility: hidden;
     height: 0;
     overflow: hidden;
-}
+} */
 
 /* Fix space issue over search */
 div[data-role="page"].page#searchPage {
